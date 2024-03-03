@@ -1,1 +1,0 @@
-import{u as o,j as n}from"./index-ecc844e4.js";const c=()=>{const r=o(e=>e.counter),s=o(e=>e.increase);return n.jsxs("div",{children:[n.jsx("div",{children:"Home Page"}),n.jsxs("button",{onClick:()=>s(1),children:["counter: ",r]})]})};export{c as default};

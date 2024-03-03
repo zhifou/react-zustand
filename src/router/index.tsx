@@ -31,5 +31,5 @@ const routes: RouteObject[] = [
 ];
 
 export default createBrowserRouter(routes, {
-    basename: "/",
+    basename: "/react-zustand",
 });
