@@ -1,6 +1,10 @@
 // pages/About/index.tsx
+import useCounterStore from "~/stores/counter";
+
 const About = () => {
-    return <div>About Page</div>;
+    const counter = useCounterStore((state) => state.counter);
+
+    return <div>About Page {counter}</div>;
 };
 
 export default About;

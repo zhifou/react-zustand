@@ -4,8 +4,16 @@ import App from "./App.tsx";
 // import './index.css'
 import "~/styles/index.scss";
 
-ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
-    <React.StrictMode>
-        <App />
-    </React.StrictMode>
-);
+// import useCounterStore from "~/stores/counter";
+
+const Init = () => {
+    // const counter = useCounterStore((state) => state.counter);
+
+    ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
+        <React.StrictMode>
+            <App />
+        </React.StrictMode>
+    );
+};
+
+Init();
